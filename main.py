@@ -58,7 +58,7 @@ class Musician(Employee):
 
     def write(self):
         super(Musician, self).write()
-        self.__company = input('Введите лейбл: ')
+        self.__label = input('Введите лейбл: ')
 
 class Guitarist (Musician):
     __strings=str()
@@ -114,4 +114,4 @@ c.show()
 
 k=Musician()
 k.write()
-k.show
+k.show()
